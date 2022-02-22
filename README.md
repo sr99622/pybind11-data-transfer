@@ -29,8 +29,11 @@ This behavior can be suppressed if desired by using the -DSUPRESS_JSON flag.
 The standard cmake process can be used to build the project from the console:
 
 mkdir build
+
 cd build
+
 cmake ..
+
 cmake --build . --config Release
 
 Add the Release directory to the PYTHONPATH environment variable so python can find the extension
