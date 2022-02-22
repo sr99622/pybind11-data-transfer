@@ -18,7 +18,7 @@ downloaded to your system, use a symbolic link to create an image of the pybind1
 the project folder.  The procedure for doing this on windows is to open an Administrator powershell
 and use the command 
 
-New-Item -ItemType SymbolicLink -Path "pybind11" -Target "path-to-pybind11-downloaded-header-directory"
+New-Item -ItemType SymbolicLink -Path "pybind11" -Target "path-to-pybind11"
 
 Replace the Link portion with the path to the symbolic link you want to create and the Target with the
 location of the directory to be linked
